@@ -1,0 +1,64 @@
+body
+{
+	background-color:grey;
+	font-color:black;
+}
+
+
+/*top nav menu*/
+
+
+
+
+
+/*top three images*/
+
+.artTopImgs
+{
+	width:50%;
+	margin-left:25%;
+}
+
+#titleName
+{
+	width:50%;
+	margin-left:25%;
+}
+
+
+
+/*nine boxes*/
+
+#aboutLabel, #tattooLabel, #testimonialsLabel
+{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:5px;
+}
+
+
+.middleOfNineDivs
+{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	background-color:#F0FDA5;
+	font-color:#82C8FF;
+	height:600px;
+}
+
+.nineEven
+{
+	font-color:#F0FDA5;
+	background-color:#82C8FF;
+}
+
+
+.topNineText
+{
+	text-align:center;
+	margin-top:15px;
+	font-size:1.5em;
+	font-color:#82C8FF !important;
+}

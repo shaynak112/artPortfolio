@@ -7,6 +7,26 @@ body
 
 /*top nav menu*/
 
+#navList
+{
+	display: list-item;
+	font-size:1.5em;
+	list-style:none;
+	text-decoration:none;
+	position:relative;
+	height:10px;
+}
+
+.navListItem
+{
+	float:right;
+	display: list-item;
+	width:8%;
+	margin-right:3%;
+	padding:0px;
+	position:relative;
+	word-wrap:break-word;
+}
 
 
 
@@ -29,7 +49,7 @@ body
 
 /*nine boxes*/
 
-#aboutLabel, #tattooLabel, #testimonialsLabel
+#aboutLabel,#aboutLabel2,#tattooLabel,#testimonialsLabel
 {
 	width:60%;
 	margin-left:20%;
@@ -46,6 +66,7 @@ body
 	background-color:#F0FDA5;
 	font-color:#82C8FF;
 	height:600px;
+	/*border:1px solid black;*/
 }
 
 .nineEven

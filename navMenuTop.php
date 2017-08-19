@@ -1,6 +1,6 @@
-<div id='navMenuTop'>
+<div class='navMenuTop' id='topNavMenu'>
 
-<ul id='navList'>
+<ul class='navList' id='topNavList'>
 	<li class='navListItem'><a href='index.php'>Home</a></li>
 	<li class='navListItem'><a href='art.php'>Art</a></li>
 	<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>

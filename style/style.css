@@ -1,18 +1,26 @@
 body
 {
 	background-color:grey;
-	font-color:black;
+	color:#F0FDA5;
+}
+
+
+
+h1,h2,h3,h4,p
+{
+	color:#F0FDA5;
 }
 
 
 /*top nav menu*/
 
-#navList
+#topNavList
 {
-	display: list-item;
+	display:list-item;
 	font-size:1.5em;
 	list-style:none;
 	text-decoration:none;
+	text-decoration-color:none;
 	position:relative;
 	height:10px;
 }
@@ -20,7 +28,7 @@ body
 .navListItem
 {
 	float:right;
-	display: list-item;
+	/*display:list-item;*/
 	width:8%;
 	margin-right:3%;
 	padding:0px;
@@ -39,7 +47,7 @@ body
 	margin-left:25%;
 }
 
-#titleName
+.titleName
 {
 	width:50%;
 	margin-left:25%;
@@ -81,5 +89,5 @@ body
 	text-align:center;
 	margin-top:15px;
 	font-size:1.5em;
-	font-color:#82C8FF !important;
+	color:#82C8FF !important;
 }

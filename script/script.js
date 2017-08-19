@@ -20,3 +20,9 @@ function blink(time, interval, image)
 
 
 
+function thisyear()
+{
+	var d = new Date();
+	var todayYear = getFullYear();
+	return todayYear;
+}

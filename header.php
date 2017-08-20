@@ -21,12 +21,7 @@
    <link rel="stylesheet" href="style/bootstrap.css">
    <link rel="stylesheet" href="style/style.css">
 
-   <!-- script
-   ================================================== -->
 
-   <script src="script/jquery-2.1.3.min.js"></script>
-  <script src="script/bootstrap.js"></script>
-   <script src="script/script.js"></script>	
 
    <!-- favicons
 	================================================== -->

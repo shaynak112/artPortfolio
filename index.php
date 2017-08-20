@@ -42,6 +42,27 @@
 <br/>
 <br/>
 
+<div class='modal' id='modalAbout'>
+	<div class='modalContent' id='modalAboutContent'>
+	    <span class="close">&times;</span>
+
+		<?php
+			include 'about.php';
+		?>
+	</div>
+</div>
+<div class='modal' id='modalTattoos'>
+	<div class='modalContent' id='modalAboutTattoos'>
+	    <span class="close">&times;</span>
+
+		<?php
+			include 'tattoos.php';
+		?>
+	</div>
+</div>
+
+
+
 <div class='row' id='topNine'>
 
 
@@ -190,6 +211,7 @@
 	<li class='navListItem'><a href='art.php'>Art</a></li>
 	<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>
 	<li class='navListItem'><a href='testimonials.php'>Testimonials</a></li>
+	<li class='navListItem'><a href='submitReview.php'>Submit Review</a></li>
 	<li class='navListItem'><a href='about.php'>About</a></li>
 	<li class='navListItem'><a href='contact.php'>Contact</a></li>
 </ul>
@@ -205,7 +227,7 @@
 
 <br/>
 
-<a href='#'>www.yourwebsite.com</a>
+<a href='#'>www.yourdomainname.com</a>
 
 <br/>
 
@@ -214,6 +236,13 @@
 </div><!--end col-lg-6-->
 </div><!--end row-->
 
+
+   <!-- script
+   ================================================== -->
+
+   <script src="script/jquery-2.1.3.min.js"></script>
+  <script src="script/bootstrap.js"></script>
+   <script src="script/script.js"></script>	
 
 <script>
 

@@ -135,3 +135,18 @@ h1,h2,h3,h4,p
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+/*artwork page*/
+
+#magazine
+{
+	width:1152px;
+	height:752px;
+}
+#magazine .turn-page
+{
+	background-color:#ccc;
+	background-size:100% 100%;
+}

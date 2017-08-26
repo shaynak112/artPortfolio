@@ -42,24 +42,6 @@
 <br/>
 <br/>
 
-<div class='modal' id='modalAbout'>
-	<div class='modalContent' id='modalAboutContent'>
-	    <span class="close">&times;</span>
-
-		<?php
-			include 'about.php';
-		?>
-	</div>
-</div>
-<div class='modal' id='modalTattoos'>
-	<div class='modalContent' id='modalAboutTattoos'>
-	    <span class="close">&times;</span>
-
-		<?php
-			include 'tattoos.php';
-		?>
-	</div>
-</div>
 
 
 
@@ -72,7 +54,7 @@
 
 	<div class='middleOfNineDivs'>
 
-		<a href='#'>
+		<a href='tattoos.php'>
 		<img src='images/tattoos/img_01.jpg' id='tattooLabel'/>
 		<p class='topNineText'>Tattoos</p></a>
 	</div>
@@ -125,7 +107,7 @@
 
 	<div class='middleOfNineDivs'>
 
-		<a href='#'>
+		<a href='testimonials.php'>
 		<img src='images/testimonial/img_01.jpg' id='testimonialsLabel'/>
 		<p class='topNineText'>Testimonials</p></a>
 

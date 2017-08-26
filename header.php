@@ -8,7 +8,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Dima's Artwork and Tattoos</title>
+	<title>David Junk</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 

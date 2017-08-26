@@ -227,7 +227,7 @@
 
 <br/>
 
-<a href='#'>www.yourdomainname.com</a>
+<a href='http://www.davidjunk.com'>www.davidjunk.com</a>
 
 <br/>
 

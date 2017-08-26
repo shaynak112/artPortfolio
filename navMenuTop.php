@@ -1,12 +1,20 @@
 
+<div class='row'>
+<div class='col-lg-12'>
 <div class='navMenuTop' id='topNavMenu'>
 
-<button class='topNavBtn' id='btnArt'>Art</button>
-<button class='topNavBtn' id='btnTattoos' onclick="tattoosModal()">Tattoos</button>
-<button class='topNavBtn' id='btnTestimonials'>Testimonials</button><!--submit review on the bottom of testimonial page-->
-<button class='topNavBtn' id='btnAbout' onclick="aboutModal()">About</button>
-<button class='topNavBtn' id='btnContact'>Contact</button>
+<ul class='navList' id='navListFoot'>
+	<li class='navListItem'><a href='index.php'>Home</a></li>
+	<li class='navListItem'><a href='art.php'>Art</a></li>
+	<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>
+	<li class='navListItem'><a href='testimonials.php'>Testimonials</a></li>
+	<li class='navListItem'><a href='about.php'>About</a></li>
+	<li class='navListItem'><a href='contact.php'>Contact</a></li>
+</ul>
 
 
 
+</div>
+
+</div>
 </div>

@@ -1,3 +1,8 @@
+<?php
+   include 'header.php';
+   include 'navMenuTop.php';
+?>
+
 
 <div class='row'>
 <div class='col-lg-8 col-lg-offset-2'>
@@ -28,3 +33,9 @@
 </div><!--end div col-lg-8-->
 </div><!--end row-->
 
+<?php
+	include 'footer.php';
+
+?>
+
+</html>

@@ -39,12 +39,6 @@
 
 /*blink function for "top nine" images only on homepage all at different speeds*/
 
-blink(9900000, 3000, '#tattooLabel');
-blink(99900000, 2500, '#testimonialsLabel');
-blink(900000, 3500, '#aboutLabel');
-blink(900000, 4000, '#aboutLabel2');
-
 </script>
 
 
-</html>

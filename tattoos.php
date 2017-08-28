@@ -23,10 +23,24 @@
 
 <br/>
 
-<img src='images/tattoos/img_02.jpg' style='width:30%;margin-left:10%;margin-right:5%;'>
-<img src='images/tattoos/img_03.jpg' style='width:30%;margin-left:5%;margin-right:5%;'>
+<img src='images/tattoos/img_04.jpg' style='width:30%;margin-left:10%;margin-right:5%;'>
+<img src='images/tattoos/img_02.jpg' style='width:30%;margin-left:5%;margin-right:5%;'>
 
-<div style='text-align:right;font-size:1.5em;'><a href='#'>MORE</a></div>
+<button id='btnTattoosMore' style='background-color:black;'>More</button>
+
+<div class='modal' id='modalTattoosMore'>
+	<div class='modalContent'>
+	    <span class="close">&times;</span>
+
+	<?php
+		include 'moreTattoos.php';
+
+	?>
+
+
+
+	</div>
+</div>
 
 
 
@@ -35,7 +49,18 @@
 
 <?php
 	include 'footer.php';
-
 ?>
+
+
+
+   <script src="script/jquery-2.1.3.min.js"></script>
+  <script src="script/bootstrap.js"></script>
+   <script src="script/script.js"></script>	
+
+<script>
+
+newFunction();
+
+</script>
 
 </html>

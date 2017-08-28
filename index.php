@@ -55,7 +55,7 @@
 	<div class='middleOfNineDivs'>
 
 		<a href='tattoos.php'>
-		<img src='images/tattoos/img_01.jpg' id='tattooLabel'/>
+		<img src='images/tattoos/img_04.jpg' id='tattooLabel'/>
 		<p class='topNineText'>Tattoos</p></a>
 	</div>
 

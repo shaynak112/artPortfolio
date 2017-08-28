@@ -14,7 +14,7 @@
     }
 
 
-
+/*
 
           // Get the modal
                 var modal = document.getElementById('modalTattoos');
@@ -46,13 +46,7 @@
 
 
 
-    /*function thisyear()
-    {
-    	var d = new Date();
-    	var todayYear = getFullYear();
-    	return todayYear;
-    }*/
-    
+
     function aboutModal()
     {
             // Get the modal
@@ -83,8 +77,13 @@
 
     }
 
-    //document.getElementById("a").onclick = function () { Foo(param); };
-
-    
    
 
+*/
+
+    /*function thisyear()
+    {
+        var d = new Date();
+        var todayYear = getFullYear();
+        return todayYear;
+    }*/

@@ -112,37 +112,37 @@ a
 }
 
 
-/* The Modal (background) 
+/* The Modal (background) */
 
 .modal
 {
-    display: none; /* Hidden by default 
-    position: fixed; /* Stay in place 
-    z-index: 1; /* Sit on top 
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width 
-    height: 100%; /* Full height 
-    overflow: auto; /* Enable scroll if needed 
-    background-color: rgb(0,0,0); /* Fallback color 
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity 
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box 
+/* Modal Content/Box */
+
 .modalContent
 {
-	color:#82C8FF;
+	/*color:#82C8FF;*/
     background-color:darkgrey;
-    margin:auto;
-    margin-top:150px;
-    /*padding: 10px;
+    margin:5% auto;
+    padding:10px;
     border:3px solid black;
-    width:75%; /* Could be more or less, depending on screen size */
+    width:75%;
 }
 
-/* The Close Button 
+/* The Close Button */
 
-close
+.close
 {
     color: #aaa;
     float: right;
@@ -150,13 +150,21 @@ close
     font-weight: bold;
 }
 
-.close:hover,.close:focus
+.close:hover,
+.close:focus
 {
     color: black;
     text-decoration: none;
     cursor: pointer;
-}*/
+}
 
+
+.moreTattoosImgs
+{
+	border:solid 2px black;
+	width:50%;
+	margin-left:25%;
+}
 
 
 /*artwork page*/

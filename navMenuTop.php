@@ -3,7 +3,7 @@
 <div class='col-lg-12'>
 <div class='navMenuTop' id='topNavMenu'>
 
-<ul class='navList' id='navListFoot'>
+<ul class='navList' id='navListTop'>
 	<li class='navListItem'><a href='index.php'>Home</a></li>
 	<li class='navListItem'><a href='art.php'>Art</a></li>
 	<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>

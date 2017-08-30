@@ -6,7 +6,7 @@
 
 
 <div class='row'>
-<div class='col-lg-8 col-lg-offset-2'>
+<div class='col-lg-5 col-lg-offset-1'>
 
 
 <h1>About</h1>
@@ -17,7 +17,16 @@
 		<p>Email: <a href='mailto:tatttodavidjunk@gmail.com'>tatttodavidjunk@gmail.com</a></p>
 
 
-</div><!--end div col-lg-8-->
+</div><!--end div col-lg-4-->
+
+<div class='col-lg-3'>
+
+	<img src='images/aboutImg.jpg' style='width:50%;margin-left:30%;'>
+
+</div><!--end lg3-->
+
+
+
 </div><!--end row-->
 
 

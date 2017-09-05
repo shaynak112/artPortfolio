@@ -24,16 +24,38 @@ a
 }
 
 
+
+
 /*top nav menu*/
+
+
+.artTopImgs
+{
+	
+	width:50%;
+	margin-left:25%;
+}
+
+.galRegImg
+{
+	border:solid darkgrey 10px;
+	border-radius:40;
+}
+
+
+.galleryList
+{
+	margin-right:75% !important;
+}
 
 .navList
 {
-	/*display:list-item;*/
+	display:list-item;
 	font-size:1.2em;
 	list-style:none;
 	text-decoration:none;
 	text-decoration-color:none;
-	position:relative;
+	/*position:relative;*/
 	/*height:10px;*/
 }
 
@@ -43,12 +65,12 @@ a
 	list-style:none;
 	text-decoration:none;
 	text-decoration-color:none;
-	/*display:list-item;*/
+	display:list-item;
 	width:8%;
 	margin-right:3%;
 	padding:0px;
-	position:relative;
-	word-wrap:break-word;
+	/*position:relative;*/
+	/*word-wrap:break-word;*/
 }
 
 .navListItemFoot
@@ -56,15 +78,13 @@ a
 	font-size:0.7em;
 }
 
-
+/*.galleryList
+{
+	margin-right:15% !important;
+}*/
 
 /*top three images*/
 
-.artTopImgs
-{
-	width:50%;
-	margin-left:25%;
-}
 
 .titleName
 {
@@ -111,6 +131,33 @@ a
 	color:#82C8FF !important;
 }
 
+
+
+/*Galleries*/
+
+
+.galleryCol
+{
+	width:100%;
+	border:solid 2px yellow;
+}
+
+.galleryReg
+{
+	width:50%;
+	margin-left:25%;
+	border:solid 2px red;
+}
+
+.canvasTitle
+{
+	margin-left:25%;
+}
+
+.canvasGalleryWrapper
+{
+	border:solid 1px green;
+}
 
 /* The Modal (background) */
 
@@ -179,3 +226,4 @@ a
 	background-color:#ccc;
 	background-size:100% 100%;
 }
+

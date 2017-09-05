@@ -1,6 +1,17 @@
 function newFunction()
 {
 
+    $(function enlargeImg()
+{
+    $('.artTopImgs').on('click', function ()
+    {
+        $(this).width(1000);
+    });
+});
+
+enlargeImg();
+
+
     function blink(time, interval, image)
     {
         var timer = window.setInterval(function()

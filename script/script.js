@@ -1,4 +1,4 @@
-function newFunction()
+/*function newFunction()
 {
 
     $(function enlargeImg()
@@ -10,6 +10,8 @@ function newFunction()
 });
 
 enlargeImg();
+
+*/
 
 
     function blink(time, interval, image)

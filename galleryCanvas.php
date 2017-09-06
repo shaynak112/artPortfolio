@@ -16,7 +16,8 @@
 </div><!--end div col-lg-8-->
 </div>
 
-
+<br/>
+<br/>
 
 
 <div class='row'>
@@ -92,7 +93,7 @@
 </div><!--end col-lg-4 topThreeDesigns-->
 
 </div><!--end row-->
-
+<br/>
 
 
 <?php
@@ -100,9 +101,11 @@
 
 ?>
 
+</body>
+
 <script>
 
-enlargeImg();
+//enlargeImg();
 
 </script>
 

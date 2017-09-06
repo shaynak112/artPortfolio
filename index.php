@@ -11,19 +11,19 @@
 <div class='row'>
 <div class='col-lg-4 topThreeDesigns'>
 
-	<a href='art.php'><img src="images/art/img_01.jpg" class='artTopImgs'></a>
+	<img src="images/art/img_01.jpg" class='artTopImgs'>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <a href='art.php'><img src="images/art/img_02.jpg" class='artTopImgs'></a>
+ 	<img src="images/art/img_02.jpg" class='artTopImgs'>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <a href='art.php'><img src="images/art/img_03.jpg" class='artTopImgs'></a>
+ 	<img src="images/art/img_03.jpg" class='artTopImgs'>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 </div><!--end row-->

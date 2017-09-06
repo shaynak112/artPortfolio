@@ -5,6 +5,14 @@
 
 */
 
+@keyframes galAnimate {
+	0% {border:solid darkgrey 15px;}
+	25% {border:solid lightgrey 20px;}
+	50% {border:solid white 20px;}
+	75% {border:solid lightgrey 17px;}
+	100% {border:solid darkgrey 15px;}
+}
+
 body
 {
 	background-color:black !important;
@@ -38,8 +46,14 @@ a
 
 .galRegImg
 {
-	border:solid darkgrey 10px;
-	border-radius:40;
+	border:solid darkgrey 15px;
+	border-radius:40px;
+}
+
+.galRegImg:hover
+{
+	animation-name: galAnimate;
+	animation-duration:7s;
 }
 
 

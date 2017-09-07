@@ -20,6 +20,8 @@
    ================================================== -->
    <link rel="stylesheet" href="style/bootstrap.css">
    <link rel="stylesheet" href="style/style.css">
+   <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+
 
 
 

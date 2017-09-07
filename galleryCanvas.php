@@ -27,19 +27,19 @@
 	The Power Is In The Message
 	</div>
 
-	<img src="images/gallery/canvas/img_257.jpg" class='artTopImgs galRegImg'>
+	<a href='images/gallery/canvas/img_257.jpg' data-lightbox="image-1"><img src="images/gallery/canvas/img_257.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <img src="images/gallery/canvas/img_258.jpg" class='artTopImgs galRegImg'>
+ <a href='images/gallery/canvas/img_258.jpg' data-lightbox='image-2'><img src="images/gallery/canvas/img_258.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <img src="images/gallery/canvas/img_259.jpg" class='artTopImgs galRegImg'>
+ <a href='images/gallery/canvas/img_259' data-lightbox='image-3'><img src="images/gallery/canvas/img_259.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 </div><!--end row-->
@@ -53,19 +53,19 @@
 <div class='row'>
 <div class='col-lg-4 topThreeDesigns'>
 
-	<a href="#" onclick="enlargeImg();"><img src="images/gallery/canvas/img_260.jpg" class='artTopImgs galRegImg'></a>
+	<a href='images/gallery/canvas/img_260' data-lightbox='image-4'><img src="images/gallery/canvas/img_260.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <img src="images/gallery/canvas/img_261.jpg" class='artTopImgs galRegImg'>
+ <a href='images/gallery/canvas/img_261' data-lightbox='image-5'><img src="images/gallery/canvas/img_261.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <img src="images/gallery/canvas/img_262.jpg" class='artTopImgs galRegImg'>
+ <a href='images/gallery/canvas/img_262' data-lightbox='image-6'><img src="images/gallery/canvas/img_262.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 </div><!--end row-->
@@ -76,13 +76,13 @@
 <div class='row'>
 <div class='col-lg-4 topThreeDesigns'>
 
-	<img src="images/gallery/canvas/img_263.jpg" class='artTopImgs galRegImg'>
+	<a href='images/gallery/canvas/img_263' data-lightbox='image-7'><img src="images/gallery/canvas/img_263.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <img src="images/gallery/canvas/img_264.jpg" class='artTopImgs galRegImg'>
+ <a href='images/gallery/canvas/img_264' data-lightbox='image-8'><img src="images/gallery/canvas/img_264.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
@@ -96,10 +96,14 @@
 <br/>
 
 
+
 <?php
 	include 'footer.php';
 
 ?>
+
+
+<script src="lightbox/src/js/lightbox.js"></script>
 
 </body>
 

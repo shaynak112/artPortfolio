@@ -56,6 +56,10 @@ a
 	animation-duration:7s;
 }
 
+.homepageSecondTitles
+{
+	text-align:center;
+}
 
 .galleryList
 {
@@ -102,6 +106,60 @@ a
 
 .titleName
 {
+	width:50%;
+	margin-left:25%;
+}
+
+/* The Modal (background) */
+
+.modal
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.modalContent
+{
+	/*color:#82C8FF;*/
+    background-color:darkgrey;
+    margin:5% auto;
+    padding:10px;
+    border:3px solid black;
+    width:75%;
+}
+
+/* The Close Button */
+
+.close
+{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.moreTattoosImgs
+{
+	border:solid 2px black;
 	width:50%;
 	margin-left:25%;
 }
@@ -173,71 +231,5 @@ a
 	border:solid 1px green;
 }
 
-/* The Modal (background) */
 
-.modal
-{
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-
-.modalContent
-{
-	/*color:#82C8FF;*/
-    background-color:darkgrey;
-    margin:5% auto;
-    padding:10px;
-    border:3px solid black;
-    width:75%;
-}
-
-/* The Close Button */
-
-.close
-{
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus
-{
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-.moreTattoosImgs
-{
-	border:solid 2px black;
-	width:50%;
-	margin-left:25%;
-}
-
-
-/*artwork page*/
-
-#magazine
-{
-	width:1152px;
-	height:752px;
-}
-#magazine .turn-page
-{
-	background-color:#ccc;
-	background-size:100% 100%;
-}
 

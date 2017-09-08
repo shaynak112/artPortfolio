@@ -39,7 +39,7 @@
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <a href='images/gallery/canvas/img_259' data-lightbox='image-3'><img src="images/gallery/canvas/img_259.jpg" class='artTopImgs galRegImg'></a>
+ <a href='images/gallery/canvas/img_259.jpg' data-lightbox='image-3'><img src="images/gallery/canvas/img_259.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 </div><!--end row-->
@@ -53,19 +53,19 @@
 <div class='row'>
 <div class='col-lg-4 topThreeDesigns'>
 
-	<a href='images/gallery/canvas/img_260' data-lightbox='image-4'><img src="images/gallery/canvas/img_260.jpg" class='artTopImgs galRegImg'></a>
+	<a href='images/gallery/canvas/img_260.jpg' data-lightbox='image-4'><img src="images/gallery/canvas/img_260.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <a href='images/gallery/canvas/img_261' data-lightbox='image-5'><img src="images/gallery/canvas/img_261.jpg" class='artTopImgs galRegImg'></a>
+ <a href='images/gallery/canvas/img_261.jpg' data-lightbox='image-5'><img src="images/gallery/canvas/img_261.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <a href='images/gallery/canvas/img_262' data-lightbox='image-6'><img src="images/gallery/canvas/img_262.jpg" class='artTopImgs galRegImg'></a>
+ <a href='images/gallery/canvas/img_262.jpg' data-lightbox='image-6'><img src="images/gallery/canvas/img_262.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 </div><!--end row-->
@@ -76,13 +76,13 @@
 <div class='row'>
 <div class='col-lg-4 topThreeDesigns'>
 
-	<a href='images/gallery/canvas/img_263' data-lightbox='image-7'><img src="images/gallery/canvas/img_263.jpg" class='artTopImgs galRegImg'></a>
+	<a href='images/gallery/canvas/img_263.jpg' data-lightbox='image-7'><img src="images/gallery/canvas/img_263.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 topThreeDesigns'>
 
- <a href='images/gallery/canvas/img_264' data-lightbox='image-8'><img src="images/gallery/canvas/img_264.jpg" class='artTopImgs galRegImg'></a>
+ <a href='images/gallery/canvas/img_264.jpg' data-lightbox='image-8'><img src="images/gallery/canvas/img_264.jpg" class='artTopImgs galRegImg'></a>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 

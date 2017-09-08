@@ -8,28 +8,7 @@
 <br/>
 <br/>
 
-<div class='row'>
-<div class='col-lg-4 topThreeDesigns'>
 
-	<img src="images/art/img_01.jpg" class='artTopImgs'>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-
-<div class='col-lg-4 topThreeDesigns'>
-
- 	<img src="images/art/img_02.jpg" class='artTopImgs'>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-
-<div class='col-lg-4 topThreeDesigns'>
-
- 	<img src="images/art/img_03.jpg" class='artTopImgs'>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-</div><!--end row-->
-
-<br/>
-<br/>
 
 <div class='row'>
 <div class='col-lg-10 col-lg-offset-1'>
@@ -39,13 +18,66 @@
 </div>
 </div><!--end row-->
 
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class='row'>
+<div class='col-lg-4 homepageImg'>
+
+<h2 class='homepageSecondTitles' style='text-align:center;'>Tattoos</h2>
+
+<div>
+	<img src="images/gallery/tattoos/img_246.jpg" class='rotating-item artTopImgs'>
+	<img src="images/gallery/tattoos/img_241.jpg" class='rotating-item artTopImgs'>
+	<img src="images/gallery/tattoos/img_231.jpg" class='rotating-item artTopImgs'>
+</div>
+
+</div><!--end col-lg-4 topThreeDesigns-->
+
+<div class='col-lg-4 homepageImg'>
+
+	<h2 class='homepageSecondTitles' style='text-align:center;'>Canvas</h2>
+
+<div>
+
+ 	<img src="images/gallery/canvas/img_260.jpg" class='artTopImgs'>
+ 	<!--<img src="images/gallery/canvas/img_264.jpg" class='artTopImgs'>
+ 	<img src="images/gallery/canvas/img_258.jpg" class='artTopImgs'>-->
+
+</div>
+
+</div><!--end col-lg-4 topThreeDesigns-->
+
+<div class='col-lg-4 homepageImg'>
+
+	<h2 class='homepageSecondTitles' style='text-align:center;'>Web</h2>
+
+	<div>
+
+ 	<img src="images/gallery/web/img_174.jpg" class='artTopImgs'>
+ 	<!--<img src="images/gallery/web/img_177.jpg" class='artTopImgs'>
+ 	<img src="images/gallery/web/img_169.jpg" class='artTopImgs'>-->
+
+</div>
+
+</div><!--end col-lg-4 topThreeDesigns-->
+</div><!--end row-->
+
+<br/>
+<br/>
+
+
+
 <br/>
 <br/>
 
 
 
 
-<div class='row' id='topNine'>
+<!--<div class='row' id='topNine'>
 
 
 <div class='row' id='rowOne'>
@@ -85,7 +117,7 @@
 </div>
 
 
-</div><!--end row one-->
+</div> end row one
 
 <br/>
 <br/>
@@ -128,7 +160,7 @@
 </div>
 
 
-</div><!--end row two-->
+</div>end row two
 
 <br/>
 <br/>
@@ -174,9 +206,9 @@
 </div>
 
 
-</div><!--end rowThree-->
+</div>end rowThree
 
-</div>
+</div>-->
 
 
 </body>
@@ -225,6 +257,7 @@
    <script src="script/jquery-2.1.3.min.js"></script>
   <script src="script/bootstrap.js"></script>
    <script src="script/script.js"></script>	
+   <script src="script/infinite-rotator.js"></script>
 
 <script>
 

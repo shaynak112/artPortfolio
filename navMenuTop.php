@@ -1,14 +1,14 @@
 
 <div class='row'>
 
-<div class='col-lg-1'>
 
-<img src='images/logo.png' id='headLogo' style='width:60%;margin-left:30%;margin-top:20px;'>
+<div class='col-lg-12'>
 
-</div>
+<img src='images/logo.png' id='headLogo' style='width:5%;margin-left:6%;margin-top:15px;float:left;'>
 
-<div class='col-lg-11'>
+
 <div class='navMenuTop' id='topNavMenu'>
+
 
 <ul class='navList nav-list' id='navListTop'>
 
@@ -31,11 +31,7 @@
 
 	<li class='navListItem'><a href='index.php'>Home</a></li>
 
-		
-	
-	
-	
-	
+
 </ul>
 
 

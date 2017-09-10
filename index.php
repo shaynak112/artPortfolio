@@ -1,7 +1,86 @@
-<?php
-   include 'header.php';
-   include 'navMenuTop.php';
-?>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html> <!--<![endif]-->
+<head>
+
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>David Junk</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="style/bootstrap.css">
+   <link rel="stylesheet" href="style/style.css">
+   <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+   <link rel="stylesheet" href="style/infinite-rotator.css">
+
+
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+
+</head>
+
+<div class='row'>
+
+<div class='col-lg-1'>
+
+<img src='images/logo.png' id='headLogo' style='width:60%;margin-left:30%;margin-top:20px;'>
+
+</div>
+
+<div class='col-lg-11'>
+<div class='navMenuTop' id='topNavMenu'>
+
+<ul class='navList nav-list' id='navListTop'>
+
+	<li class='navListItem'><a href='contact.php'>Contact</a></li>
+<li class='navListItem'><a href='about.php'>About</a></li>
+<li class='navListItem'><a href='testimonials.php'>Testimonials</a></li>
+<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>
+
+
+		<li class='navListItem'><a class='treeview' href='galleries.php'>Galleries</a>
+			<ul>
+			<li class='galleryList navListItem'><a href='galleryTattoos.php'>Tattoos</a></li><br/>
+
+			<li class='galleryList navListItem'><a href='galleryCanvas.php'>Canvas</a></li><br/>
+			
+			<li class='galleryList navListItem'><a href='galleryWeb.php'>Web</a></li>
+			</ul>
+		</li>
+			
+
+	<li class='navListItem'><a href='index.php'>Home</a></li>
+
+		
+	
+	
+	
+	
+</ul>
+
+
+
+</div>
+
+</div>
+</div>
+
+<br/>
+<br/>
+<br/>
 
 <body>
 
@@ -26,10 +105,16 @@
 
 <div class='row'>
 <div class='col-lg-4 homepageImg'>
-
-<h2 class='homepageSecondTitles' style='text-align:center;'>Tattoos</h2>
-
 <div>
+<a href='galleryTattoos.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Tattoos</h2></a>
+</div>
+<div>
+
+<br/>
+<br/>
+<br/>
+
+
 	<img src="images/gallery/tattoos/img_246.jpg" class='rotating-item artTopImgs'>
 	<img src="images/gallery/tattoos/img_241.jpg" class='rotating-item artTopImgs'>
 	<img src="images/gallery/tattoos/img_231.jpg" class='rotating-item artTopImgs'>
@@ -38,28 +123,37 @@
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 homepageImg'>
-
-	<h2 class='homepageSecondTitles' style='text-align:center;'>Canvas</h2>
+<div>
+	<a href='galleryCanvas.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Canvas</h2></a>
+</div>
+<br/>
+<br/>
+<br/>
 
 <div>
 
- 	<img src="images/gallery/canvas/img_260.jpg" class='artTopImgs'>
- 	<!--<img src="images/gallery/canvas/img_264.jpg" class='artTopImgs'>
- 	<img src="images/gallery/canvas/img_258.jpg" class='artTopImgs'>-->
+ 	<img src="images/gallery/canvas/img_260.jpg" class='rotating-item1 artTopImgs'>
+ 	<img src="images/gallery/canvas/img_264.jpg" class='rotating-item1 artTopImgs'>
+ 	<img src="images/gallery/canvas/img_258.jpg" class='rotating-item1 artTopImgs'>
 
 </div>
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
 <div class='col-lg-4 homepageImg'>
+<div>
+	<a href='galleryWeb.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Web</h2></a>
+</div>
 
-	<h2 class='homepageSecondTitles' style='text-align:center;'>Web</h2>
+<br/>
+<br/>
+<br/>
 
 	<div>
 
- 	<img src="images/gallery/web/img_174.jpg" class='artTopImgs'>
- 	<!--<img src="images/gallery/web/img_177.jpg" class='artTopImgs'>
- 	<img src="images/gallery/web/img_169.jpg" class='artTopImgs'>-->
+ 	<img src="images/gallery/web/img_174.jpg" class='rotating-item2 artTopImgs'>
+ 	<img src="images/gallery/web/img_177.jpg" class='rotating-item2 artTopImgs'>
+ 	<img src="images/gallery/web/img_169.jpg" class='rotating-item2 artTopImgs'>
 
 </div>
 
@@ -74,7 +168,21 @@
 <br/>
 <br/>
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 <!--<div class='row' id='topNine'>
@@ -225,7 +333,7 @@
 	<li class='navListItem'><a href='art.php'>Art</a></li>
 	<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>
 	<li class='navListItem'><a href='testimonials.php'>Testimonials</a></li>
-	<li class='navListItem'><a href='submitReview.php'>Submit Review</a></li>
+	<!--<li class='navListItem'><a href='submitReview.php'>Submit Review</a></li>-->
 	<li class='navListItem'><a href='about.php'>About</a></li>
 	<li class='navListItem'><a href='contact.php'>Contact</a></li>
 </ul>

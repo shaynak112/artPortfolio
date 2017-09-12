@@ -103,10 +103,32 @@
 <br/>
 <br/>
 
+
 <div class='row'>
 <div class='col-lg-4 homepageImg'>
-<div>
 <a href='galleryTattoos.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Tattoos</h2></a>
+
+</div>
+
+<div class='col-lg-4 homepageImg'>
+
+<a href='galleryCanvas.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Canvas</h2></a>
+
+</div>
+
+<div class='col-lg-4 homepageImg'>
+
+<a href='galleryWeb.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Web</h2></a>
+
+</div>
+</div>
+
+
+<div class='row'>
+<div class='col-lg-4 homepageImg'>
+
+<div>
+<a href='galleryTattoos.php'><h2 class='homepageSecondTitles' style='text-align:center;'> </h2></a>
 </div>
 <div>
 
@@ -124,7 +146,7 @@
 
 <div class='col-lg-4 homepageImg'>
 <div>
-	<a href='galleryCanvas.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Canvas</h2></a>
+	<a href='galleryCanvas.php'><h2 class='homepageSecondTitles' style='text-align:center;'> </h2></a>
 </div>
 <br/>
 <br/>
@@ -142,7 +164,7 @@
 
 <div class='col-lg-4 homepageImg'>
 <div>
-	<a href='galleryWeb.php'><h2 class='homepageSecondTitles' style='text-align:center;'>Web</h2></a>
+	<a href='galleryWeb.php'><h2 class='homepageSecondTitles' style='text-align:center;'> </h2></a>
 </div>
 
 <br/>
@@ -160,19 +182,16 @@
 </div><!--end col-lg-4 topThreeDesigns-->
 </div><!--end row-->
 
-<br/>
-<br/>
-
 
 
 <br/>
 <br/>
 
+
+
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
+
 <br/>
 <br/>
 <br/>
@@ -183,143 +202,19 @@
 <br/>
 <br/>
 <br/>
-
-
-<!--<div class='row' id='topNine'>
-
-
-<div class='row' id='rowOne'>
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs'>
-
-		<a href='tattoos.php'>
-		<img src='images/tattoos/img_04.jpg' id='tattooLabel'/>
-		<p class='topNineText'>Tattoos</p></a>
-	</div>
-
-
-</div>
-
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs nineEven'>
-
-
-
-	</div>
-
-</div>
-
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs'>
-
-
-
-	</div>
-
-</div>
-
-
-</div> end row one
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 
-<div class='row' id='rowTwo'>
 
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs nineEven'>
-
-
-
-	</div>
-
-</div>
-
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs'>
-
-		<a href='testimonials.php'>
-		<img src='images/testimonial/img_01.jpg' id='testimonialsLabel'/>
-		<p class='topNineText'>Testimonials</p></a>
-
-
-	</div>
-
-</div>
-
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs nineEven'>
-
-
-
-	</div>
-
-</div>
-
-
-</div>end row two
-
-<br/>
-<br/>
-
-<div class='row' id='rowThree'>
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs'>
-
-
-
-
-	</div>
-
-</div>
-
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs nineEven'>
-
-
-
-	</div>
-
-</div>
-
-
-<div class='col-lg-4'>
-
-	<div class='middleOfNineDivs'>
-
-		<a href='about.php'>
-		<img src='images/art/about2.jpg' id='aboutLabel2'/></a>
-		<a href='contact.php'>
-		<img src='images/art/about.jpg' id='aboutLabel'/></a>
-		<a href='about.php'><p class='topNineText'>About</p></a>
-		<a href='contact.php'><p class='topNineText'>Contact</p></a>
-
-	</div>
-
-</div>
-
-
-</div>end rowThree
-
-</div>-->
-
-
-</body>
 
 
 <footer id='footer'>
@@ -330,7 +225,6 @@
 
 <ul class='navList' id='navListFoot'>
 	<li class='navListItem'><a href='index.php'>Home</a></li>
-	<li class='navListItem'><a href='art.php'>Art</a></li>
 	<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>
 	<li class='navListItem'><a href='testimonials.php'>Testimonials</a></li>
 	<!--<li class='navListItem'><a href='submitReview.php'>Submit Review</a></li>-->
@@ -353,7 +247,7 @@
 
 <br/>
 
-&copy; David Junk, <script>thisyear()</script>
+&copy; David Junk, 2017
 
 </div><!--end col-lg-6-->
 </div><!--end row-->
@@ -367,20 +261,8 @@
    <script src="script/script.js"></script>	
    <script src="script/infinite-rotator.js"></script>
 
-<script>
-
-/*blink function for "top nine" images only on homepage all at different speeds*/
-
-blink(9900000, 3000, '#tattooLabel');
-blink(99900000, 2500, '#testimonialsLabel');
-blink(900000, 3500, '#aboutLabel');
-blink(900000, 4000, '#aboutLabel2');
-
-</script>
-
-
 
 </footer>
 
-
+</body>
 </html>

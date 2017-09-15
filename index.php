@@ -62,9 +62,9 @@
 <br/>
 
 
-	<img src="images/gallery/tattoos/img_246.jpg" class='rotating-item artTopImgs'>
-	<img src="images/gallery/tattoos/img_241.jpg" class='rotating-item artTopImgs'>
-	<img src="images/gallery/tattoos/img_231.jpg" class='rotating-item artTopImgs'>
+	<img src="images/gallery/tattoos/img_242.jpg" class='rotating-item artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+	<img src="images/gallery/tattoos/img_230.jpg" class='rotating-item artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+	<img src="images/gallery/tattoos/img_233.jpg" class='rotating-item artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
 </div>
 
 </div><!--end col-lg-4 topThreeDesigns-->
@@ -79,9 +79,11 @@
 
 <div>
 
- 	<img src="images/gallery/canvas/img_260.jpg" class='rotating-item1 artTopImgs'>
- 	<img src="images/gallery/canvas/img_264.jpg" class='rotating-item1 artTopImgs'>
- 	<img src="images/gallery/canvas/img_258.jpg" class='rotating-item1 artTopImgs'>
+ 	<img src="images/gallery/canvas/img_261.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_250.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_262.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_257.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_248.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
 
 </div>
 
@@ -98,9 +100,12 @@
 
 	<div>
 
- 	<img src="images/gallery/web/img_174.jpg" class='rotating-item2 artTopImgs'>
- 	<img src="images/gallery/web/img_177.jpg" class='rotating-item2 artTopImgs'>
- 	<img src="images/gallery/web/img_169.jpg" class='rotating-item2 artTopImgs'>
+ 	<img src="images/gallery/web/img_192.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/web/img_176.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/web/img_184.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/web/img_191.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/web/img_169.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/web/img_175.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
 
 </div>
 
@@ -156,7 +161,6 @@
    <script src="script/infinite-rotator.js"></script>
 
 
-</footer>
 
 </body>
 </html>

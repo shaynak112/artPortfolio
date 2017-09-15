@@ -1,82 +1,7 @@
-<!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html> <!--<![endif]-->
-<head>
-
-
-   <!--- basic page needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>David Junk</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
-
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="style/bootstrap.css">
-   <link rel="stylesheet" href="style/style.css">
-   <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
-   <link rel="stylesheet" href="style/infinite-rotator.css">
-
-
-
-   <!-- favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
-
-
-</head>
-
-<div class='row'>
-
-<div class='col-lg-1'>
-
-<img src='images/logo.png' id='headLogo' style='width:60%;margin-left:30%;margin-top:20px;'>
-
-</div>
-
-<div class='col-lg-11'>
-<div class='navMenuTop' id='topNavMenu'>
-
-<ul class='navList nav-list' id='navListTop'>
-
-	<li class='navListItem'><a href='contact.php'>Contact</a></li>
-<li class='navListItem'><a href='about.php'>About</a></li>
-<li class='navListItem'><a href='testimonials.php'>Testimonials</a></li>
-<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>
-
-
-		<li class='navListItem'><a class='treeview' href='galleries.php'>Galleries</a>
-			<ul>
-			<li class='galleryList navListItem'><a href='galleryTattoos.php'>Tattoos</a></li><br/>
-
-			<li class='galleryList navListItem'><a href='galleryCanvas.php'>Canvas</a></li><br/>
-			
-			<li class='galleryList navListItem'><a href='galleryWeb.php'>Web</a></li>
-			</ul>
-		</li>
-			
-
-	<li class='navListItem'><a href='index.php'>Home</a></li>
-
-		
-	
-	
-	
-	
-</ul>
-
-
-
-</div>
-
-</div>
-</div>
+<?php
+   include 'header.php';
+   include 'navMenuTop.php';
+?>
 
 <br/>
 <br/>
@@ -216,41 +141,10 @@
 
 
 
+<?php
+	include 'footer.php';
+?>
 
-<footer id='footer'>
-<div class='row'>
-<div class='col-lg-6'>
-
-<div class='navMenuTop' id='navMenuFoot'>
-
-<ul class='navList' id='navListFoot'>
-	<li class='navListItem'><a href='index.php'>Home</a></li>
-	<li class='navListItem'><a href='tattoos.php'>Tattoos</a></li>
-	<li class='navListItem'><a href='testimonials.php'>Testimonials</a></li>
-	<!--<li class='navListItem'><a href='submitReview.php'>Submit Review</a></li>-->
-	<li class='navListItem'><a href='about.php'>About</a></li>
-	<li class='navListItem'><a href='contact.php'>Contact</a></li>
-</ul>
-
-</div><!--end navMenuTop-->
-
-</div><!--end col-lg-6-->
-
-
-<div class='col-lg-6'>
-
-<a href='mailto:davidjunk9@gmail.com'>Email: davidjunk9@gmail.com</a>
-
-<br/>
-
-<a href='http://www.davidjunk.com'>www.davidjunk.com</a>
-
-<br/>
-
-&copy; David Junk, 2017
-
-</div><!--end col-lg-6-->
-</div><!--end row-->
 
 
    <!-- script

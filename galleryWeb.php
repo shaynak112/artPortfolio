@@ -1,6 +1,7 @@
 <?php
    include 'header.php';
    include 'navMenuTop.php';
+   include 'dbConnect.php';
 ?>
 
 
@@ -19,85 +20,62 @@
 <br/>
 <br/>
 
+<?php
 
-<div class='row'>
-<div class='col-lg-4 topThreeDesigns'>
-
-	<div class='canvasTitle'>Zoloto
-	</div>
-
-	<a href='images/gallery/web/img_168.jpg' data-lightbox="image-1"><img src="images/gallery/web/img_168.jpg" class='artTopImgs galRegImg'></a>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-
-<div class='col-lg-4 topThreeDesigns'>
-
- <a href='images/gallery/web/img_169.jpg' data-lightbox='image-2'><img src="images/gallery/web/img_169.jpg" class='artTopImgs galRegImg'></a>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-
-<div class='col-lg-4 topThreeDesigns'>
-
- <a href='images/gallery/web/img_170.jpg' data-lightbox='image-3'><img src="images/gallery/web/img_170.jpg" class='artTopImgs galRegImg'></a>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-</div><!--end row-->
-
-<br/>
-<br/>
-
-
+            $dbconn = new Dbconnect;
+            $db = $dbconn->getDb();
+            $query = "SELECT * FROM galWeb ORDER BY galleryOrder ASC";
+            $statement = $db->prepare($query);
+            $statement->execute();
+            $webImgs = $statement->fetchAll(PDO::FETCH_OBJ);
+?>
 
 
 <div class='row'>
-<div class='col-lg-4 topThreeDesigns'>
 
-	<a href='images/gallery/web/img_171.jpg' data-lightbox='image-4'><img src="images/gallery/web/img_171.jpg" class='artTopImgs galRegImg'></a>
 
-</div><!--end col-lg-4 topThreeDesigns-->
+<?php
 
-<div class='col-lg-4 topThreeDesigns'>
+$increment=3;
 
- <a href='images/gallery/web/img_172.jpg' data-lightbox='image-5'><img src="images/gallery/web/img_172.jpg" class='artTopImgs galRegImg'></a>
+foreach($webImgs as $c)
+{
+	if($increment%3==0)
+	{
+		echo "</div>";
+		echo "<br/><br/><br/>";
+		echo "<div class='row'>";
+		echo "<div class='col-lg-4 topThreeDesigns'>";
+		echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
+		//echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
+		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
+		echo "<div class='webInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
+		echo "</div>";
+		$increment++;
+	}
+	else
+	{	
+		echo "<div class='col-lg-4 topThreeDesigns'>";
+		echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
+		//echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
+		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
+		echo "<div class='webInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
+		echo "</div>";
+		$increment++;
 
-</div><!--end col-lg-4 topThreeDesigns-->
+	}
+}
 
-<div class='col-lg-4 topThreeDesigns'>
-
- <a href='images/gallery/web/img_173.jpg' data-lightbox='image-6'><img src="images/gallery/web/img_174.jpg" class='artTopImgs galRegImg'></a>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-</div><!--end row-->
-
-<br/>
-<br/>
-
-<div class='row'>
-<div class='col-lg-4 topThreeDesigns'>
-
-<div class='canvasTitle'>Anubis
-	</div>
-
-	<a href='images/gallery/web/img_175.jpg' data-lightbox='image-7'><img src="images/gallery/web/img_175.jpg" class='artTopImgs galRegImg'></a>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-
-<div class='col-lg-4 topThreeDesigns'>
-
-<div class='canvasTitle'>Cherepovets
-	</div>
- <a href='images/gallery/web/img_176.jpg' data-lightbox='image-8'><img src="images/gallery/web/img_176.jpg" class='artTopImgs galRegImg'></a>
-
-</div><!--end col-lg-4 topThreeDesigns-->
-
-<div class='col-lg-4 topThreeDesigns'>
-
-<a href='images/gallery/web/img_177.jpg' data-lightbox='image-9'><img src="images/gallery/web/img_177.jpg" class='artTopImgs galRegImg'></a>
-
-</div><!--end col-lg-4 topThreeDesigns-->
+?>
 
 </div><!--end row-->
 <br/>
+<br/>
+
+
+
+
+
 
 
 

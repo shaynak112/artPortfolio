@@ -10,12 +10,9 @@
 <div class='col-lg-8 col-lg-offset-2'>
 
 
-<h1>Gallery - Canvas</h1>
+<h1>Gallery - Sketches</h1>
 
 <p style='float:right;'><a href='galleries.php'>All Galleries?</a></p>
-<br/>
-<br/>
-<p style='float:right;'><a href='canvas.php'>More information about canvas</a></p>
 
 </div><!--end div col-lg-8-->
 </div>
@@ -27,11 +24,12 @@
 
             $dbconn = new Dbconnect;
             $db = $dbconn->getDb();
-            $query = "SELECT * FROM galCanvas ORDER BY galleryOrder ASC";
+            $query = "SELECT * FROM galSketch ORDER BY galleryOrder ASC";
             $statement = $db->prepare($query);
             $statement->execute();
-            $canvasImgs = $statement->fetchAll(PDO::FETCH_OBJ);
+            $sketchImgs = $statement->fetchAll(PDO::FETCH_OBJ);
 ?>
+
 
 <div class='row'>
 
@@ -40,7 +38,7 @@
 
 $increment=3;
 
-foreach($canvasImgs as $c)
+foreach($sketchImgs as $c)
 {
 	if($increment%3==0)
 	{
@@ -48,22 +46,20 @@ foreach($canvasImgs as $c)
 		echo "<br/><br/><br/>";
 		echo "<div class='row'>";
 		echo "<div class='col-lg-4 topThreeDesigns'>";
-		echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
-		//echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
+		echo "<div class='sketchGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
+		//echo "<div class='sketchGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
 		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
-				echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->size . "</div>";
-		echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
+		echo "<div class='sketchInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
 		echo "</div>";
 		$increment++;
 	}
 	else
 	{	
 		echo "<div class='col-lg-4 topThreeDesigns'>";
-		echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
-		//echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
+		echo "<div class='sketchGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
+		//echo "<div class='sketchGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
 		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
-		echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->size . "</div>";
-		echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
+		echo "<div class='sketchInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
 		echo "</div>";
 		$increment++;
 
@@ -71,15 +67,15 @@ foreach($canvasImgs as $c)
 }
 
 ?>
-	
 
 </div><!--end row-->
-
-
-
-
-
 <br/>
+<br/>
+
+
+
+
+
 
 
 

@@ -62,9 +62,10 @@
 <br/>
 
 
+	<a href='galleryTattoos.php'>
 	<img src="images/gallery/tattoos/img_242.jpg" class='rotating-item artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
-	<img src="images/gallery/tattoos/img_230.jpg" class='rotating-item artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
 	<img src="images/gallery/tattoos/img_233.jpg" class='rotating-item artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+	<img src="images/gallery/tattoos/img_246.jpg" class='rotating-item artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'></a>
 </div>
 
 </div><!--end col-lg-4 topThreeDesigns-->
@@ -79,11 +80,12 @@
 
 <div>
 
- 	<img src="images/gallery/canvas/img_261.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
- 	<img src="images/gallery/canvas/img_250.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
- 	<img src="images/gallery/canvas/img_262.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<a href='galleryCanvas.php'>
  	<img src="images/gallery/canvas/img_257.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
- 	<img src="images/gallery/canvas/img_248.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_252.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_000.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_254.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/canvas/img_259.jpg" class='rotating-item1 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'></a>
 
 </div>
 
@@ -100,12 +102,13 @@
 
 	<div>
 
+ 	<a href='galleryWeb.php'>
  	<img src="images/gallery/web/img_192.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
  	<img src="images/gallery/web/img_176.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
  	<img src="images/gallery/web/img_184.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
  	<img src="images/gallery/web/img_191.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
  	<img src="images/gallery/web/img_169.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
- 	<img src="images/gallery/web/img_175.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'>
+ 	<img src="images/gallery/web/img_175.jpg" class='rotating-item2 artTopImgs' style='border:solid 3px #FF8000;border-radius:40px;'></a>
 
 </div>
 

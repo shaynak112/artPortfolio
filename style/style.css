@@ -5,13 +5,18 @@
 
 */
 
-@keyframes galAnimate {
+/*animations*/
+
+@keyframes galAnimate
+{
 	0% {border:solid darkgrey 15px;}
 	25% {border:solid lightgrey 20px;}
 	50% {border:solid white 20px;}
 	75% {border:solid lightgrey 17px;}
 	100% {border:solid darkgrey 15px;}
 }
+
+/*general*/
 
 body
 {
@@ -34,8 +39,13 @@ a
 
 
 
-/*top nav menu*/
+/*homepage*/
 
+.mainImgs
+{
+	border:solid 3px #FF8000;
+	border-radius:40px;
+}
 
 .artTopImgs
 {
@@ -61,12 +71,32 @@ a
 	text-align:center;
 }
 
+.homepageImgLink
+{
+	text-decoration:none;
+}
+
+/*top nav menu*/
+
+.headLogo
+{
+	width:5%;
+	margin-left:6%;
+	margin-top:15px;
+	float:left;
+}
+
+.icon
+{
+    display: none;
+}
+
 .galleryList
 {
 	margin-right:75% !important;
 }
 
-.navList
+.navList, .navListFooter
 {
 	display:list-item;
 	font-size:1.2em;
@@ -91,6 +121,8 @@ a
 	/*word-wrap:break-word;*/
 }
 
+/*footer*/
+
 .navListItemFoot
 {
 	font-size:0.7em;
@@ -101,7 +133,15 @@ a
 	margin-right:15% !important;
 }*/
 
-/*top three images*/
+/*canvas and tattoo pages*/
+
+.featuredCanvas
+{
+	width:80% !important;
+	margin-left:10% !important;
+	border:solid 3px #FF8000 !important;
+	border-radius:20px !important;
+}
 
 
 .titleName
@@ -110,27 +150,27 @@ a
 	margin-left:25%;
 }
 
-/* The Modal (background) */
+/* The Modal (background) - may end up using later for tattoos
 
 .modal
 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none; /* Hidden by default 
+    position: fixed; /* Stay in place 
+    z-index: 1; /* Sit on top 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; /* Full width 
+    height: 100%; /* Full height 
+    overflow: auto; /* Enable scroll if needed 
+    background-color: rgb(0,0,0); /* Fallback color
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity 
 }
 
-/* Modal Content/Box */
+/* Modal Content/Box 
 
 .modalContent
 {
-	/*color:#82C8FF;*/
+	/*color:#82C8FF;
     background-color:darkgrey;
     margin:5% auto;
     padding:10px;
@@ -138,7 +178,7 @@ a
     width:75%;
 }
 
-/* The Close Button */
+/* The Close Button 
 
 .close
 {
@@ -157,6 +197,7 @@ a
 }
 
 
+
 .moreTattoosImgs
 {
 	border:solid 2px black;
@@ -164,9 +205,9 @@ a
 	margin-left:25%;
 }
 
+*/
 
-
-/*nine boxes*/
+/*nine boxes - design changed; may not need these
 
 #aboutLabel,#aboutLabel2,#tattooLabel,#testimonialsLabel
 {
@@ -185,7 +226,7 @@ a
 	background-color:#F0FDA5;
 	font-color:#82C8FF;
 	height:600px;
-	/*border:1px solid black;*/
+	/*border:1px solid black;
 }
 
 .nineEven
@@ -201,7 +242,7 @@ a
 	margin-top:15px;
 	font-size:1.5em;
 	color:#82C8FF !important;
-}
+}*/
 
 
 
@@ -231,5 +272,151 @@ a
 	border:solid 1px green;
 }
 
+/*Search*/
+
+#searchImageSubmit
+{
+	background-color:green;
+}
+
+/*Smaller Comp Media Query*/
+
+@media (max-width: 1510px)
+{
+
+	.homeThreeClass
+	{
+		margin-bottom:600px;
+	}
+
+}
 
 
+/*Tablet Media Query*/
+
+@media (max-width: 760px)
+{
+
+	.homeThreeClass
+	{
+		margin-bottom:400px;
+	}
+
+	.navList a:not(first-child)
+	{
+		display:none;
+	}
+
+	.navList a.icon
+	{
+		float:right;
+		display:block;
+	}
+
+    .navList.responsive
+    {
+    	position: relative;
+    	display:block;
+    	list-style-type: none;
+    	font-size:.8em;
+    }
+
+    .navList.responsive a.icon
+    {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+    	display:block;
+    	list-style-type: none;
+    }
+
+    .navList.responsive a
+    {
+    	float: none;
+    	display: block;
+    	text-align: left;
+    	list-style-type: none;
+    }
+
+	.featuredCanvas
+	{
+		margin-bottom:20px !important;
+	}
+
+	.navListFooter
+	{
+		margin-left:0px;
+		position:relative;
+		width:100% !important;
+		
+	}
+
+	.navListItemFoot
+	{
+		width:10%;
+	}
+
+	.headLogo
+	{
+		width:10%;
+	}
+
+
+	.footColOne
+	{
+		margin-bottom:50px !important;
+		width:100% !important;
+	}
+
+	.galleryList
+	{
+		visibility:none !important;
+		display:none !important;
+	}
+
+}
+
+
+/*Phone Media Query*/
+@media (max-width: 480px)
+{
+	.homeThreeClass
+	{
+		margin-bottom:200px;
+	}
+
+	.headLogo
+	{
+		width:15%;
+	}
+
+	.featuredCanvas
+	{
+		margin-bottom:10px !important;
+	}
+
+	.navListFooter
+	{
+		margin-left:0px;
+		position:relative;
+		width:100% !important;	
+	}
+
+	.navListItemFoot
+	{
+		width:20%;
+	}
+
+
+	.footColOne
+	{
+		margin-bottom:100px !important;
+		width:100% !important;
+	}
+
+    .navList.responsive
+    {
+    	font-size:.5em;
+    }
+	
+}

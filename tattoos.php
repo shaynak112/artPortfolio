@@ -19,7 +19,9 @@
 </ul>
 
 <p><strong>I work in fully sterile locations and use only quality paints and tools; guaranteed. I can work in your home or place of your choice or you can come to my home. <a href='contact.php'>Contact me</a> for more information about tattoos and tattoo sketches.</strong></p>
+
 <p style='text-align:center;'><a href='galleryTattoos.php'>View the Gallery</a></p>
+<p style='text-align:center;'><a href='search.php'>Search Through Tattoo Images</a></p>
 
 <br/>
 
@@ -32,19 +34,19 @@
 <div class='col-lg-8 col-lg-offset-2'>
 
 	<div class='col-lg-3'>
-		<img src='images/gallery/tattoos/img_230.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+		<img src='images/gallery/tattoos/img_230.jpg' class='featuredCanvas'>
 	</div>
 
 	<div class='col-lg-3'>
-		<img src='images/gallery/tattoos/img_242.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+		<img src='images/gallery/tattoos/img_242.jpg' class='featuredCanvas'>
 	</div>
 
 	<div class='col-lg-3'>
-		<img src='images/gallery/tattoos/img_231.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+		<img src='images/gallery/tattoos/img_231.jpg' class='featuredCanvas'>
 	</div>
 
 	<div class='col-lg-3'>
-		<img src='images/gallery/tattoos/img_300.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+		<img src='images/gallery/tattoos/img_300.jpg' class='featuredCanvas'>
 	</div>
 
 

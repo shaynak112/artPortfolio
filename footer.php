@@ -7,42 +7,19 @@
 <br/>
 
 <div class='row'>
-<div class='col-lg-8'>
+<div class='col-lg-8 footColOne'>
 
 <div class='navMenuTop' id='navMenuFoot'>
 
-<ul class='navList' id='navListFoot'>
+<ul class='navListFooter' id='navListFoot'>
 
 
 	<li class='navListItem navListItemFoot'><a href='contact.php'>Contact</a></li>
-<li class='navListItem navListItemFoot'><a href='about.php'>About</a></li>
-<li class='navListItem navListItemFoot'><a href='search.php'>Search</a></li>
-<li class='navListItem navListItemFoot'><a href='tattoos.php'>Tattoos</a></li>
-<li class='navListItem navListItemFoot'><a href='canvas.php'>Canvas</a></li>
-
-
-		<li class='navListItem navListItemFoot'><a class='treeview' href='galleries.php'>Galleries</a>
-			<ul>
-			<li class='galleryList navListItem navListItemFoot'><a href='galleryTattoos.php'>Tattoos</a></li><br/>
-
-			<li class='galleryList navListItem navListItemFoot'><a href='galleryCanvas.php'>Canvas</a></li><br/>
-			
-			<li class='galleryList navListItem navListItemFoot'><a href='galleryWeb.php'>Web</a></li>
-
-			<li class='galleryList navListItem navListItemFoot'><a href='galleryIPadDraw.php'>iPadDrawings</a></li>
-
-			<li class='galleryList navListItem navListItemFoot'><a href='galleryTattooSketch.php'>TattooSketches</a></li>
-
-			<li class='galleryList navListItem navListItemFoot'><a href='gallerySketch.php'>Sketches</a></li>
-
-			<li class='galleryList navListItem navListItemFoot'><a href='galleryNewWayWeb.php'>NewWayWeb</a></li>
-
-
-
-			</ul>
-		</li>
-			
-
+	<li class='navListItem navListItemFoot'><a href='about.php'>About</a></li>
+	<li class='navListItem navListItemFoot'><a href='search.php'>Search</a></li>
+	<li class='navListItem navListItemFoot'><a href='tattoos.php'>Tattoos</a></li>
+	<li class='navListItem navListItemFoot'><a href='canvas.php'>Canvas</a></li>
+	<li class='navListItem navListItemFoot'><a href='galleries.php'>Galleries</li>
 	<li class='navListItem navListItemFoot'><a href='index.php'>Home</a></li>
 
 
@@ -50,13 +27,10 @@
 
 </div><!--end navMenuTop-->
 
-</div><!--end col-lg-6-->
+</div><!--end col-lg-8-->
 
 
-<div class='col-lg-4'>
-
-
-
+<div class='col-lg-4 footColTwo'>
 
 <a href='index.php'>www.davidjunk.com</a>
 <br/>

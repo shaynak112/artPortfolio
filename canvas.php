@@ -8,7 +8,7 @@
 <div class='col-lg-8 col-lg-offset-2'>
 
 
-<h1>Canvas Prints</h1>
+<h1>Canvas Painting</h1>
 
 <p>I am located in Toronto, Canada. My canvas paintings are available for sale. The price is dependent on size and delivery (where you are located) or pickup. There are a variety of sizes and paintings available. View my gallery to see the work I have done and <a href='contact.php'>contact me</a> to discuss further.</p>
 

@@ -1,16 +1,21 @@
+<head>
+<link rel="stylesheet" href="style/style.css">
+</head>
 
 <div class='row'>
 
 
 <div class='col-lg-12'>
 
-<img src='images/logo.png' id='headLogo' style='width:5%;margin-left:6%;margin-top:15px;float:left;'>
+<img src='images/logo.png' class='headLogo'>
 
 
 <div class='navMenuTop' id='topNavMenu'>
 
 
 <ul class='navList nav-list' id='navListTop'>
+
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 
 	<li class='navListItem'><a href='contact.php'>Contact</a></li>
 <li class='navListItem'><a href='about.php'>About</a></li>
@@ -42,6 +47,8 @@
 			
 
 	<li class='navListItem'><a href='index.php'>Home</a></li>
+
+
 
 
 </ul>

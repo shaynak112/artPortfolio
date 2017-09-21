@@ -41,8 +41,16 @@
 
 &copy; David Junk, 2017
 
+<br/>
+
+Website By <a href='http://www.shaynak112.com' target='_blank'>Shayna Kingsbury, www.shaynak112.com</a>
+
 </div><!--end col-lg-6-->
 </div><!--end row-->
+
+<script src="script/jquery-2.1.3.min.js"></script>
+  <script src="script/bootstrap.js"></script>
+   <script src="script/script.js"></script>	
 
 </footer>
 

@@ -14,6 +14,7 @@
 
 
 <p style='text-align:center;'><a href='galleryCanvas.php'>View the Gallery</a></p>
+<p style='text-align:center;'><a href='search.php'>Search Through Canvas Images</a></p>
 
 <br/>
 
@@ -25,20 +26,20 @@
 <div class='row'>
 <div class='col-lg-8 col-lg-offset-2'>
 
-	<div class='col-lg-3'>
-		<img src='images/gallery/canvas/img_227.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+	<div class='col-lg-3 canvasRow'>
+		<img src='images/gallery/canvas/img_227.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3'>
-		<img src='images/gallery/canvas/img_249.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+	<div class='col-lg-3 canvasRow'>
+		<img src='images/gallery/canvas/img_249.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3'>
-		<img src='images/gallery/canvas/img_224.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+	<div class='col-lg-3 canvasRow'>
+		<img src='images/gallery/canvas/img_224.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3'>
-		<img src='images/gallery/canvas/img_303.jpg' style='width:70%;margin-left:15%;border:solid 2px #FF8000;'>
+	<div class='col-lg-3 canvasRow'>
+		<img src='images/gallery/canvas/img_303.jpg' class='featuredCanvas'>
 	</div>
 
 

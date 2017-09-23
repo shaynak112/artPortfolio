@@ -26,19 +26,21 @@
 
 		<li class='navListItem'><a class='treeview' href='galleries.php'>Galleries</a>
 			<ul>
+
+						<li class='galleryList navListItem'><a href='galleryCanvas.php'>Canvas</a></li><br/>
+
 			<li class='galleryList navListItem'><a href='galleryTattoos.php'>Tattoos</a></li><br/>
+			<li class='galleryList navListItem'><a href='galleryTattooSketch.php'>TattooSketches</a></li>
+						<li class='galleryList navListItem'><a href='gallerySketch.php'>Sketches</a></li>
 
-			<li class='galleryList navListItem'><a href='galleryCanvas.php'>Canvas</a></li><br/>
-			
 			<li class='galleryList navListItem'><a href='galleryWeb.php'>Web</a></li>
-
+<li class='galleryList navListItem'><a href='galleryNewWayWeb.php'>NewWayWeb</a></li>
 			<li class='galleryList navListItem'><a href='galleryIPadDraw.php'>iPadDrawings</a></li>
 
-			<li class='galleryList navListItem'><a href='galleryTattooSketch.php'>TattooSketches</a></li>
+			
 
-			<li class='galleryList navListItem'><a href='gallerySketch.php'>Sketches</a></li>
 
-			<li class='galleryList navListItem'><a href='galleryNewWayWeb.php'>NewWayWeb</a></li>
+			
 
 
 

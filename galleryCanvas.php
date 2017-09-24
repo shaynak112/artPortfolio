@@ -50,7 +50,7 @@ foreach($canvasImgs as $c)
 		echo "<div class='col-lg-4 topThreeDesigns'>";
 		echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
 		//echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
-		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
+		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg' alt='" . $c->title . "'></a>";
 				echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->size . "</div>";
 		echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
 		echo "</div>";
@@ -61,7 +61,7 @@ foreach($canvasImgs as $c)
 		echo "<div class='col-lg-4 topThreeDesigns'>";
 		echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
 		//echo "<div class='canvasTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
-		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
+		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg' alt='" . $c->title . "'></a>";
 		echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->size . "</div>";
 		echo "<div class='canvasInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
 		echo "</div>";

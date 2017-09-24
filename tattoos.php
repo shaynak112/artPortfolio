@@ -3,6 +3,15 @@
    include 'navMenuTop.php';
 ?>
 
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=112543359450276";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class='row'>
 <div class='col-lg-8 col-lg-offset-2'>
@@ -77,7 +86,7 @@
 <br/>
 
 
-
+<div class="fb-share-button" data-href="https://www.davidjunk.com" data-layout="button" data-size="small" data-mobile-iframe="true" style='float:right;margin-right:20%;'><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.davidjunk.com">Share</a></div>
 
 
 

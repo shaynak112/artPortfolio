@@ -1,6 +1,7 @@
 <?php
    include 'header.php';
    include 'navMenuTop.php';
+   include 'dbConnect.php';
 ?>
 
 <br/>
@@ -61,12 +62,29 @@
 
 <div class='homeThreeClass'> 
 
+<?php
 
+            $dbconn1 = new Dbconnect;
+            $db1 = $dbconn1->getDb();
+            $query1 = "SELECT * FROM galTattoos WHERE homepage='yes' ORDER BY galleryOrder ASC";
+            $statement1 = $db1->prepare($query1);
+            $statement1->execute();
+            $tattooImgs = $statement1->fetchAll(PDO::FETCH_OBJ);
+?>
 
 	<a href='galleryTattoos.php'>
-	<img src="images/gallery/tattoos/img_242.jpg" class='mainImgs rotating-item artTopImgs'>
-	<img src="images/gallery/tattoos/img_233.jpg" class='mainImgs rotating-item artTopImgs'>
-	<img src="images/gallery/tattoos/img_246.jpg" class='mainImgs rotating-item artTopImgs'></a>
+
+<?php
+	foreach($tattooImgs as $t)
+{
+
+	echo "<img src='images/gallery/" . $t->url . "' class='mainImgs rotating-item artTopImgs' alt='" . $t->title . "'>";
+}
+
+?>
+
+</a>
+
 </div>
 
 </div><!--end col-lg-4 topThreeDesigns-->
@@ -79,12 +97,29 @@
 
 <div class='homeThreeClass'>
 
+<?php
+
+            $dbconn = new Dbconnect;
+            $db = $dbconn->getDb();
+            $query = "SELECT * FROM galCanvas WHERE homepage='yes' ORDER BY galleryOrder ASC";
+            $statement = $db->prepare($query);
+            $statement->execute();
+            $canvasImgs = $statement->fetchAll(PDO::FETCH_OBJ);
+?>
+
  	<a href='galleryCanvas.php'>
- 	<img src="images/gallery/canvas/img_257.jpg" class='mainImgs rotating-item1 artTopImgs'>
- 	<img src="images/gallery/canvas/img_252.jpg" class='mainImgs rotating-item1 artTopImgs'>
- 	<img src="images/gallery/canvas/img_000.jpg" class='mainImgs rotating-item1 artTopImgs'>
- 	<img src="images/gallery/canvas/img_254.jpg" class='mainImgs rotating-item1 artTopImgs'>
- 	<img src="images/gallery/canvas/img_259.jpg" class='mainImgs rotating-item1 artTopImgs'></a>
+
+<?php
+
+foreach($canvasImgs as $c)
+{
+
+	echo "<img src='images/gallery/" . $c->url . "' class='mainImgs rotating-item1 artTopImgs' alt='" . $c->title . "'>";
+}
+
+?>
+
+ 	</a>
 
 </div>
 
@@ -98,13 +133,33 @@
 
 	<div class='homeThreeClass'>
 
- 	<a href='galleryWeb.php'>
- 	<img src="images/gallery/web/img_192.jpg" class='mainImgs rotating-item2 artTopImgs'>
- 	<img src="images/gallery/web/img_176.jpg" class='mainImgs rotating-item2 artTopImgs'>
- 	<img src="images/gallery/web/img_184.jpg" class='mainImgs rotating-item2 artTopImgs'>
- 	<img src="images/gallery/web/img_191.jpg" class='mainImgs rotating-item2 artTopImgs'>
- 	<img src="images/gallery/web/img_169.jpg" class='mainImgs rotating-item2 artTopImgs'>
- 	<img src="images/gallery/web/img_175.jpg" class='mainImgs rotating-item2 artTopImgs'></a>
+ 	
+
+ 	<?php
+
+            $dbconn2 = new Dbconnect;
+            $db2 = $dbconn2->getDb();
+            $query2 = "SELECT * FROM galWeb WHERE homepage='yes' ORDER BY galleryOrder ASC";
+            $statement2 = $db2->prepare($query2);
+            $statement2->execute();
+            $webImgs = $statement2->fetchAll(PDO::FETCH_OBJ);
+?>
+
+<a href='galleryWeb.php'>
+
+<?php
+
+foreach($webImgs as $w)
+{
+
+	echo "<img src='images/gallery/" . $w->url . "' class='mainImgs rotating-item2 artTopImgs' alt='" . $w->title . "'>";
+}
+
+?>
+
+
+
+ 	</a>
 
 </div>
 

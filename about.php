@@ -25,11 +25,11 @@
 
 <div class='col-lg-3'>
 
-<img src='images/about/aboutImg2.jpg' style='width:70%;margin-left:15%;margin-bottom:15px;margin-top:15px;border:solid 5px #FF8000;'>
+<img src='images/about/aboutImg2.jpg' style='width:70%;margin-left:15%;margin-bottom:15px;margin-top:15px;border:solid 4px #FF8000;border-radius:10px;'>
 
 <br/>
 
-	<img src='images/about/aboutImg1.jpg' id='aboutImage' style='width:50%;margin-left:25%;border:solid 5px #FF8000;'>
+	<img src='images/about/aboutImg1.jpg' id='aboutImage' style='width:50%;margin-left:25%;border:solid 4px #FF8000;border-radius:10px;'>
 
 </div><!--end lg3-->
 

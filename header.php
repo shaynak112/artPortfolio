@@ -9,12 +9,17 @@
    ================================================== -->
    <meta charset="utf-8">
 	<title>David Junk</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+	<meta name="description" content="Portfolio for artist including tattoo, sketch, canvas, painting, web, drawings located in Toronto">  
+	<meta name="author" content="David Junk">
 
    <!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:url"           content="http://www.davidjunk.com" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="David Junk" />
+  <meta property="og:description"   content="Artist, designer, painter, tattoos, Toronto" />
 
  	<!-- CSS
    ================================================== -->

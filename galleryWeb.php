@@ -48,7 +48,7 @@ foreach($webImgs as $c)
 		echo "<div class='col-lg-4 topThreeDesigns'>";
 		echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
 		//echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
-		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
+		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg' alt='" . $c->title . "'></a>";
 		echo "<div class='webInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
 		echo "</div>";
 		$increment++;
@@ -58,7 +58,7 @@ foreach($webImgs as $c)
 		echo "<div class='col-lg-4 topThreeDesigns'>";
 		echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
 		//echo "<div class='webGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
-		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg'></a>";
+		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg' alt='" . $c->title . "'></a>";
 		echo "<div class='webInfo' style='margin-left:30%;font-size:1.3em;'>" . $c->description . "</div>";
 		echo "</div>";
 		$increment++;

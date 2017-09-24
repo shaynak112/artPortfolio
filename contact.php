@@ -33,7 +33,7 @@ Contact me if you are interested in working with me or if you have any inquiries
 
 <div class='col-lg-4'>
 
-<img src='images/contact/contactImg1.jpg' style='width:50%;margin-left:25%;margin-bottom:50px;margin-top:25px;border:solid 5px #FF8000;'>
+<img src='images/contact/contactImg1.jpg' style='width:50%;margin-left:25%;margin-bottom:50px;margin-top:25px;border:solid 4px #FF8000;border-radius:10px;'>
 
 </div><!--end row-->
 

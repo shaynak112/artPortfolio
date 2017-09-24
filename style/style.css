@@ -91,10 +91,7 @@ a
     display: none;
 }
 
-.galleryList
-{
-	margin-right:75% !important;
-}
+
 
 .navList, .navListFooter
 {
@@ -119,6 +116,12 @@ a
 	padding:0px;
 	/*position:relative;*/
 	/*word-wrap:break-word;*/
+}
+
+.galleryList
+{
+	margin-right:90% !important;
+	font-size:0.8em !important;
 }
 
 /*footer*/
@@ -382,7 +385,7 @@ a
 {
 	.homeThreeClass
 	{
-		margin-bottom:200px;
+		margin-bottom:250px;
 	}
 
 	.headLogo

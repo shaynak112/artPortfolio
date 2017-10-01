@@ -5,9 +5,9 @@
 <div class='row'>
 
 
-<div class='col-lg-12'>
+<div class='col-sm-12'>
 
-<img src='images/logo.png' class='headLogo'>
+<a href='index.php'><img src='images/logo.jpg' class='headLogo'></a>
 
 
 <div class='navMenuTop' id='topNavMenu'>

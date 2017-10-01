@@ -7,7 +7,7 @@
 
 
 <div class='row'>
-<div class='col-lg-8 col-lg-offset-2'>
+<div class='col-sm-8 col-sm-offset-2'>
 
 
 <h1>Gallery - New Way (Web Art)</h1>
@@ -45,7 +45,7 @@ foreach($webImgs as $c)
 		echo "</div>";
 		echo "<br/><br/><br/>";
 		echo "<div class='row'>";
-		echo "<div class='col-lg-4 topThreeDesigns'>";
+		echo "<div class='col-sm-4 topThreeDesigns'>";
 		echo "<div class='newWebGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
 		//echo "<div class='newWebGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
 		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg' alt='" . $c->title . "'></a>";
@@ -55,7 +55,7 @@ foreach($webImgs as $c)
 	}
 	else
 	{	
-		echo "<div class='col-lg-4 topThreeDesigns'>";
+		echo "<div class='col-sm-4 topThreeDesigns'>";
 		echo "<div class='newWebGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title . "</div>";
 		//echo "<div class='newWebGalTitle' style='margin-left:30%;font-size:1.3em;'>" . $c->title2 . "</div>";
 		echo "<a href='images/gallery/" . $c->url . "' data-lightbox='image-1'><img src='images/gallery/" . $c->url . "' class='artTopImgs galRegImg' alt='" . $c->title . "'></a>";

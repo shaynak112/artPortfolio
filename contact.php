@@ -6,7 +6,7 @@
 
 
 <div class='row'>
-<div class='col-lg-4 col-lg-offset-2'>
+<div class='col-sm-4 col-sm-offset-2'>
 
 
 <h1>Contact</h1>
@@ -20,7 +20,7 @@ Contact me if you are interested in working with me or if you have any inquiries
 <br/>
 
 
-		<p>Phone: 437-992-9796</p>
+		<p>Phone: 1-437-992-9796</p>
 		<p>Email: <a href='mailto:tatttodavidjunk@gmail.com'>tatttodavidjunk@gmail.com</a></p>
 
 
@@ -31,13 +31,27 @@ Contact me if you are interested in working with me or if you have any inquiries
 
 </div><!--end div col-lg-6-->
 
-<div class='col-lg-4'>
+<div class='col-sm-4'>
 
 <img src='images/contact/contactImg1.jpg' style='width:50%;margin-left:25%;margin-bottom:50px;margin-top:25px;border:solid 4px #FF8000;border-radius:10px;'>
 
 </div><!--end row-->
 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 

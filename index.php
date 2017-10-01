@@ -15,9 +15,9 @@
 
 
 <div class='row'>
-<div class='col-lg-10 col-lg-offset-1'>
+<div class='col-sm-10 col-sm-offset-1'>
 
-<img src='titleName.jpg' class='titleName'>
+<img src='images/titleName.jpg' class='titleName'>
 
 </div>
 </div><!--end row-->
@@ -30,18 +30,18 @@
 
 
 <div class='row'>
-<div class='col-lg-4 homepageImg'>
+<div class='col-sm-4 homepageImg'>
 <a href='galleryTattoos.php' class='homepageImgLink'><h2 class='homepageSecondTitles'>Tattoos</h2></a>
 
 </div>
 
-<div class='col-lg-4 homepageImg'>
+<div class='col-sm-4 homepageImg'>
 
 <a href='galleryCanvas.php' class='homepageImgLink'><h2 class='homepageSecondTitles'>Canvas</h2></a>
 
 </div>
 
-<div class='col-lg-4 homepageImg'>
+<div class='col-sm-4 homepageImg'>
 
 <a href='galleryWeb.php' class='homepageImgLink'><h2 class='homepageSecondTitles'>Web</h2></a>
 
@@ -50,7 +50,7 @@
 
 
 <div class='row'>
-<div class='col-lg-4 homepageImg'>
+<div class='col-sm-4 homepageImg'>
 
 <div>
 <a href='galleryTattoos.php'><h2 class='homepageSecondTitles'> </h2></a>
@@ -89,8 +89,10 @@
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
-<div class='col-lg-4 homepageImg'>
+<div class='col-sm-4 homepageImg'>
 
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -125,8 +127,10 @@ foreach($canvasImgs as $c)
 
 </div><!--end col-lg-4 topThreeDesigns-->
 
-<div class='col-lg-4 homepageImg'>
+<div class='col-sm-4 homepageImg'>
 
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -176,14 +180,6 @@ foreach($webImgs as $w)
 <br/>
 <br/>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>

@@ -14,7 +14,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class='row'>
-<div class='col-lg-8 col-lg-offset-2'>
+<div class='col-sm-8 col-sm-offset-2'>
 
 
 <h1>Tattoos</h1>
@@ -40,21 +40,21 @@
 
 
 <div class='row'>
-<div class='col-lg-8 col-lg-offset-2'>
+<div class='col-sm-8 col-sm-offset-2'>
 
-	<div class='col-lg-3'>
+	<div class='col-sm-3'>
 		<img src='images/gallery/tattoos/img_230.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3'>
+	<div class='col-sm-3'>
 		<img src='images/gallery/tattoos/img_242.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3'>
+	<div class='col-sm-3'>
 		<img src='images/gallery/tattoos/img_231.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3'>
+	<div class='col-sm-3'>
 		<img src='images/gallery/tattoos/img_300.jpg' class='featuredCanvas'>
 	</div>
 

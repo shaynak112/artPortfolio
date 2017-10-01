@@ -13,7 +13,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class='row'>
-<div class='col-lg-8 col-lg-offset-2'>
+<div class='col-sm-8 col-sm-offset-2'>
 
 
 <h1>Canvas Painting</h1>
@@ -32,21 +32,21 @@
 
 
 <div class='row'>
-<div class='col-lg-8 col-lg-offset-2'>
+<div class='col-sm-8 col-sm-offset-2'>
 
-	<div class='col-lg-3 canvasRow'>
+	<div class='col-sm-3 canvasRow'>
 		<img src='images/gallery/canvas/img_227.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3 canvasRow'>
+	<div class='col-sm-3 canvasRow'>
 		<img src='images/gallery/canvas/img_249.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3 canvasRow'>
+	<div class='col-sm-3 canvasRow'>
 		<img src='images/gallery/canvas/img_224.jpg' class='featuredCanvas'>
 	</div>
 
-	<div class='col-lg-3 canvasRow'>
+	<div class='col-sm-3 canvasRow'>
 		<img src='images/gallery/canvas/img_303.jpg' class='featuredCanvas'>
 	</div>
 

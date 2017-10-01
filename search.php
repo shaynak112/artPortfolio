@@ -8,7 +8,7 @@
 
 
 <div class='row'>
-<div class='col-lg-8 col-lg-offset-2'>
+<div class='col-sm-8 col-sm-offset-2'>
 
 
 <h1>Search</h1>
@@ -20,7 +20,7 @@
 </div><!--end row-->
 
 <div class='row'>
-<div class='col-lg-4 col-lg-offset-2'>
+<div class='col-sm-4 col-sm-offset-2'>
 
 <h3>Search through canvas</h3>
 <p>More information on canvas <a href='canvas.php'>here</a>.</p>
@@ -34,7 +34,7 @@
 
 </div>
 
-<div class='col-lg-4'>
+<div class='col-sm-4'>
 
 <h3>Search through tattoos</h3>
 <p>More information on tattoos <a href='tattoos.php'>here</a>.</p>
@@ -54,7 +54,7 @@
 </div><!--end row-->
 
 <div class='row' id='searchResults'>
-<div class='col-lg-8 col-lg-offset-2' id='searchResultColumn'>
+<div class='col-sm-8 col-sm-offset-2' id='searchResultColumn'>
 
 <?php
 	if(isset($_POST['searchCanvasSubmit']))
@@ -84,7 +84,7 @@
                   {
                     echo "</div>";
                     echo "<div class='row'>";
-                    echo "<div class='col-md-3' style='left:2%;margin-bottom:30px;'>";
+                    echo "<div class='col-sm-3' style='left:2%;margin-bottom:30px;'>";
                     echo "<p style='margin-left:15%;'>Title: " . $results['title'] . "</p>";
                     echo "<p style='margin-left:15%;'>Size: " . $results['size'] . "</p>";
                     echo "<p style='margin-left:15%;'>Description: " . $results['description'] . "</p>";
@@ -94,7 +94,7 @@
                   }
                   else if(!$increment%4==0)
                   {
-                    echo "<div class='col-md-3' style='left:2%;margin-bottom:30px;'>";
+                    echo "<div class='col-sm-3' style='left:2%;margin-bottom:30px;'>";
                     echo "<p style='margin-left:15%;'>Title: " . $results['title'] . "</p>";
                     echo "<p style='margin-left:15%;'>Size: " . $results['size'] . "</p>";
                     echo "<p style='margin-left:15%;'>Description: " . $results['description'] . "</p>";
@@ -153,7 +153,7 @@
                   {
                     echo "</div>";
                     echo "<div class='row'>";
-                    echo "<div class='col-md-3' style='left:2%;margin-bottom:30px;'>";
+                    echo "<div class='col-sm-3' style='left:2%;margin-bottom:30px;'>";
                     echo "<p style='margin-left:15%;'>Title: " . $results['title'] . "</p>";
                     echo "<img src='images/gallery/" . $results['url'] . "' style='width:70%;margin-left:15%;'>";
                     echo "</div>";
@@ -161,7 +161,7 @@
                   }
                   else if(!$increment%4==0)
                   {
-                    echo "<div class='col-md-3' style='left:2%;margin-bottom:30px;'>";
+                    echo "<div class='col-sm-3' style='left:2%;margin-bottom:30px;'>";
                     echo "<p style='margin-left:15%;'>Title: " . $results['title'] . "</p>";
                     echo "<img src='images/gallery/" . $results['url'] . "' style='width:70%;margin-left:15%;'>";
                     echo "</div>";

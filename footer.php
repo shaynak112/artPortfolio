@@ -7,7 +7,7 @@
 <br/>
 
 <div class='row'>
-<div class='col-lg-8 footColOne'>
+<div class='col-sm-8 footColOne'>
 
 <div class='navMenuTop' id='navMenuFoot'>
 
@@ -30,7 +30,7 @@
 </div><!--end col-lg-8-->
 
 
-<div class='col-lg-4 footColTwo'>
+<div class='col-sm-4 footColTwo'>
 
 <a href='index.php'>www.davidjunk.com</a>
 <br/>

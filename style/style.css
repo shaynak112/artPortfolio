@@ -84,6 +84,7 @@ a
 	margin-left:6%;
 	margin-top:15px;
 	float:left;
+	border-radius:10px;
 }
 
 .icon
@@ -151,6 +152,7 @@ a
 {
 	width:50%;
 	margin-left:25%;
+	border-radius:10px;
 }
 
 /* The Modal (background) - may end up using later for tattoos

@@ -7,7 +7,7 @@
 <br/>
 
 <div class='row'>
-<div class='col-sm-8 footColOne'>
+<div class='col-sm-7 footColOne'>
 
 <div class='navMenuTop' id='navMenuFoot'>
 
@@ -30,7 +30,7 @@
 </div><!--end col-lg-8-->
 
 
-<div class='col-sm-4 footColTwo'>
+<div class='col-sm-3 footColTwo'>
 
 <a href='index.php'>www.davidjunk.com</a>
 <br/>
@@ -46,6 +46,17 @@
 Website By <a href='http://www.shaynak112.com' target='_blank'>Shayna Kingsbury, www.shaynak112.com</a>
 
 </div><!--end col-lg-6-->
+
+<div class='col-sm-2 footColThree'>
+
+<a href='https://vk.com/album40641297_212365555' target='_blank'><img src='images/contact/vk.png' class='footerSocialMedia' style='height:15px;margin-left:2px;'></a>
+
+<a href='https://www.instagram.com/david_junk/' target='_blank'><img src='images/contact/instagram.jpg' class='footerSocialMedia' style='height:15px;margin-left:2px;'></a>
+
+<a href='https://www.facebook.com/david.junk.33821/media_set?set=a.149474728863111.1073741829.100014017542393&type=3' target='_blank'><img src='images/contact/facebook.jpg' class='footerSocialMedia' style='height:15px;margin-left:2px;'></a>
+
+
+</div><!--end col-sm-2-->
 </div><!--end row-->
 
 <script src="script/jquery-2.1.3.min.js"></script>

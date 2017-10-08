@@ -139,6 +139,8 @@ a
 
 /*canvas and tattoo pages*/
 
+
+
 .featuredCanvas
 {
 	width:80% !important;
@@ -294,6 +296,11 @@ a
 		margin-bottom:600px;
 	}
 
+	.galRegImg
+	{
+		border:solid darkgrey 10px;
+	}
+
 }
 
 
@@ -301,6 +308,12 @@ a
 
 @media (max-width: 760px)
 {
+
+	.canvasTitle
+	{
+		margin-bottom:15px;
+	}
+
 
 	.homeThreeClass
 	{

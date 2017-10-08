@@ -26,7 +26,14 @@ Contact me if you are interested in working with me or if you have any inquiries
 
 <h2>Social Media</h2>
 
-<div><a href='https://www.instagram.com/david_junk/' target='_blank'><img src='images/contact/instagram.jpg' style='height:50px;'></a><a href='https://www.facebook.com/david.junk.33821/media_set?set=a.149474728863111.1073741829.100014017542393&type=3' target='_blank'><img src='images/contact/facebook.jpg' style='height:50px;margin-left:5%;'></a></div>
+<div><a href='https://www.instagram.com/david_junk/' target='_blank'><img src='images/contact/instagram.jpg' style='height:50px;'></a>
+
+	<a href='https://www.facebook.com/david.junk.33821/media_set?set=a.149474728863111.1073741829.100014017542393&type=3' target='_blank'><img src='images/contact/facebook.jpg' style='height:50px;margin-left:5%;'></a>
+
+<a href='https://vk.com/album40641297_212365555' target='_blank'><img src='images/contact/vk.png' style='height:50px;margin-left:5%;'></a>
+
+
+</div>
 
 
 </div><!--end div col-lg-6-->
